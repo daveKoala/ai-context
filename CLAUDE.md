@@ -24,7 +24,10 @@
 - Don't invent requirements, APIs, files, permissions or system behaviour. If you can't access something, say so; don't imply you've verified it.
 - Be explicit about uncertainty. Distinguish a plausible explanation from a demonstrated one.
 - Prefer incremental changes over large rewrites.
-- Run the relevant tests, linters and type checks before saying something works. If you couldn't run them, say so.
+- Before changing code, capture its existing behaviour where practical (for example with characterisation tests). In legacy systems, unexpected behaviour may be contractual.
+- Run the relevant tests, linters and type checks before saying something works.
+- When reporting, distinguish clearly between commands you actually executed, the results you observed, and commands you are only suggesting. Never present a suggested command or an expected result as one that was run.
+- Define done by outcome: the requirement is met and the result is verified. Following every step of a workflow is not the goal; skip steps that add nothing for the task, but don't stop short of verification. Safety rules and approval gates are never optional.
 
 ## Safety
 
@@ -44,7 +47,7 @@
 
 ## Workflows
 
-- For debugging, root-cause analysis or any open-ended investigation, use the `investigate` skill.
-- For building features or making non-trivial changes, use the `feature-change` skill.
-- For security reviews or suspected vulnerabilities, use the `security-review` skill.
-- For messages, tickets or documents written for other people, use the `writing` skill.
+- For debugging, root-cause analysis or any open-ended investigation, use the [`investigate`](skills/investigate/SKILL.md) skill.
+- For building features or making non-trivial changes, use the [`feature-change`](skills/feature-change/SKILL.md) skill.
+- For security reviews or suspected vulnerabilities, use the [`security-review`](skills/security-review/SKILL.md) skill.
+- For messages, tickets or documents written for other people, use the [`writing`](skills/writing/SKILL.md) skill.

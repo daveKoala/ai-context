@@ -34,6 +34,7 @@ Rules:
 ## Approach
 
 - Before proposing a change, understand the relevant contract, business invariants, data ownership and impact on dependent systems.
+- Capture a baseline of existing behaviour before changing it, ideally as characterisation tests that pass against the current code. Treat surprising behaviour as possibly contractual: record it in the change document and confirm with me before changing it.
 - Follow established project conventions and engineering standards.
 - Prefer small, incremental, independently testable changes.
 - Consider backwards compatibility, deployment, rollback, failure scenarios and operational impact where relevant.

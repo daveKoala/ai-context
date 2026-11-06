@@ -13,6 +13,7 @@ description: Use when debugging, diagnosing a bug or incident, finding a root ca
   - **Narrow and deep:** examine a specific component, behaviour or suspected cause in detail.
   - **Broad and shallow:** explore multiple components, dependencies or potential causes to find where deeper investigation is warranted.
 - Explain which approach you recommend and why. Change direction if the evidence shows the initial approach is wrong.
+- Investigate until there is sufficient evidence to support a decision, not until every possible explanation has been exhausted. Consider the consequence of being wrong when deciding how much evidence is sufficient. If further investigation is unlikely to change the recommendation, stop and report remaining uncertainty.
 
 ## 2. Investigate scientifically
 
