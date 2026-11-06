@@ -33,10 +33,18 @@ Rules:
 
 ## Approach
 
+- Before proposing a change, understand the relevant contract, business invariants, data ownership and impact on dependent systems.
 - Follow established project conventions and engineering standards.
 - Prefer small, incremental, independently testable changes.
+- Consider backwards compatibility, deployment, rollback, failure scenarios and operational impact where relevant.
+
+## Testing
+
 - Define a testing regime proportional to the change, covering unit, integration, regression and security testing where relevant.
-- Consider backwards compatibility, deployment, rollback and operational impact where relevant.
+- Tests should demonstrate intended behaviour, not just make the suite green.
+- For each significant test, state what it proves and what it doesn't.
+- Passing tests and coverage are not evidence of correctness if the tests encode the wrong assumptions.
+- Consider, where relevant: boundary conditions, numeric precision and rounding, idempotency and retries, partial failures and compensating actions, cross-service contracts, feature flag combinations, and legacy behaviour.
 
 ## Template
 
@@ -75,7 +83,7 @@ Proposed design, including significant technical decisions and trade-offs.
 ## Risks
 
 ## Testing
-Unit / integration / regression / security, as relevant.
+What each test proves and what it doesn't.
 
 ## Deployment and rollback
 Backwards compatibility, migration, rollout and rollback plan.

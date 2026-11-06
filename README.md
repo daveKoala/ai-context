@@ -8,7 +8,10 @@ My personal context and skills for AI coding tools.
 |------|---------|
 | `CLAUDE.md` | Core context, loaded in every session: role, working style, expectations, safety, communication. |
 | `skills/investigate/` | Debugging and root-cause investigation workflow. |
-| `skills/feature-change/` | Feature/change workflow with a Draft → Ready → Done change document. |
+| `skills/feature-change/` | Feature and change workflow with a Draft, Ready, Done change document. |
+| `skills/security-review/` | Security review method with confidence levels for findings. |
+| `skills/writing/` | Messages, tickets and documents for other people. |
+| `templates/project-CLAUDE.md` | Starting point for a project-level `CLAUDE.md`. Fill it in inside the private project repo. |
 
 ## Install (Claude Code)
 
