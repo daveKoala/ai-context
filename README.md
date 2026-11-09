@@ -11,6 +11,8 @@ My personal context and skills for AI coding tools.
 | `skills/feature-change/` | Feature and change workflow with a Draft, Ready, Done change document. |
 | `skills/security-review/` | Security review method with confidence levels for findings. |
 | `skills/writing/` | Messages, tickets and documents for other people. |
+| `CHANGELOG.md` | Versions, the reasoning behind this repo, and the variables that affect results. |
+| `FINDINGS.md` | Record of whether the instructions are followed and whether they help. |
 | `templates/project-CLAUDE.md` | Starting point for a project-level `CLAUDE.md`. Fill it in inside the private project repo. |
 
 ## Proportionality
