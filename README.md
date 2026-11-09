@@ -13,6 +13,16 @@ My personal context and skills for AI coding tools.
 | `skills/writing/` | Messages, tickets and documents for other people. |
 | `templates/project-CLAUDE.md` | Starting point for a project-level `CLAUDE.md`. Fill it in inside the private project repo. |
 
+## Proportionality
+
+Match the depth of investigation, documentation, planning and verification to the complexity, uncertainty and consequences of the task. Apply enough rigour to produce a reliable result, but avoid process, exploration or documentation that doesn't materially improve the outcome.
+
+## Keeping it current
+
+This is not a finished document. It needs regular assessment, because models change: a newer model may already do some of this by default, or may respond differently to the same instruction.
+
+The question now is not what else to put in it. It is whether agents consistently follow it, and whether following it produces better results. Add a rule when an agent repeatedly does something unwanted, remove rules that make no observable difference, and test a change by comparing results with and without it.
+
 ## Install (Claude Code)
 
 ```bash
